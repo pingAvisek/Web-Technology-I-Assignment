@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Normal Flow Box Layout Example</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .gap {
+        padding: 1rem;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+        gap: 1rem;
+        padding: 0.4rem;
+      }
+
+      ul li a {
+        text-decoration: none;
+        color: #000;
+        padding: 0.2rem;
+        border: 1px solid #b3b3b3;
+        border-radius: 0.2rem;
+      }
+
+      main {
+        margin: 1rem 0;
+        padding: 2rem 1rem;
+        border: 1px solid #b3b3b3;
+        border-radius: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="gap" style="color: #fff; background-color: #333333">
+      <h1>Normal Flow Box Layout Example</h1>
+    </header>
+    <nav style="background-color: #f2f2f2; padding: 0.2rem">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h3>About Us</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
+        accusantium laboriosam numquam reprehenderit non minus nostrum
+        aspernatur fugit quibusdam ex unde eveniet voluptates molestias natus
+        impedit, nemo quae dolore. Porro, qui eligendi quasi possimus
+        perferendis asperiores adipisci quaerat dolores inventore officiis nisi
+        quo placeat culpa.
+      </p>
+    </main>
+
+    <footer
+      class="gap"
+      style="text-align: center; background-color: #333333; color: #fff"
+    >
+      <p>&copy; 2023 Normal Flow Box Layout Example</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab9</title>
+    <style>
+      .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      .box-container .box {
+        max-width: 150px;
+        max-height: 180px;
+        padding: 3rem;
+        border: 1px solid #b3b3b3;
+        border-radius: 2px;
+      }
+
+      .box:nth-child(even) {
+        background-color: #90ee90;
+      }
+
+      .box:nth-child(odd) {
+        background-color: #addae6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box">
+        <p>Box 1</p>
+      </div>
+
+      <div class="box">
+        <p>Box 2</p>
+      </div>
+
+      <div class="box">
+        <p>Box 3</p>
+      </div>
+
+      <div class="box">
+        <p>Box 4</p>
+      </div>
+
+      <div class="box">
+        <p>Box 5</p>
+      </div>
+
+      <div class="box">
+        <p>Box 6</p>
+      </div>
+    </div>
+  </body>
+</html>

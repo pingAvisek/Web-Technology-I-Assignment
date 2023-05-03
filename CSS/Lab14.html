@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab14</title>
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #333333;
+      }
+
+      header nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        gap: 1rem;
+      }
+
+      header a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+      }
+
+      header a:hover {
+        color: rgb(239, 69, 69);
+      }
+
+      .logo {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .image-slice {
+        width: 200px;
+        height: 200px;
+        background-image: url("../img/girl-with-certificate.jpg");
+        background-position: -300px -200px; /* adjust these values to position the slice */
+      }
+
+      footer {
+        padding: 0.5rem;
+        color: #fff;
+        text-align: center;
+        background-color: #333333;
+        margin: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/">AG</a>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Section Heading</h1>
+    <p>
+      Use the box-sizing property to include the padding and border in the
+      element's total width and height.
+    </p>
+    <div class="image-slice"></div>
+    <footer>
+      <p>&copy; 2023 My Sliced Webpage</p>
+    </footer>
+  </body>
+</html>

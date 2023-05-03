@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position in CSS</title>
+
+    <style>
+      .logo {
+        width: 100px;
+        height: 100px;
+        background-color: #000;
+        color: #fff;
+        display: inline-block;
+      }
+
+      .logo p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .welcome {
+        background-color: #add8e6;
+        position: relative;
+        width: 80%;
+        margin-left: auto;
+        float: right;
+        /* height: 140px; */
+        padding: 20px;
+      }
+
+      .sidebar {
+        background-color: #90ee90;
+        display: inline-block;
+        position: absolute;
+        right: 8px;
+        top: 162px;
+      }
+
+      .sidebar p {
+        width: 45ch;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <p>100 x 100</p>
+    </div>
+
+    <div class="welcome">
+      <h1>Welcome to my Website!</h1>
+      <p>
+        Use the box-sizing property to include padding and borders in the
+        element's total width and height.
+      </p>
+    </div>
+
+    <div class="sidebar">
+      <h1>Sidebar</h1>
+      <p>
+        Use the box-sizing property to include padding and borders in the
+        element's total width and height.
+      </p>
+    </div>
+  </body>
+</html>
