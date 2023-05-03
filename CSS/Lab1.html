@@ -1,0 +1,64 @@
+<!-- Using Class and ID -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab1</title>
+    <style>
+      header,
+      article {
+        padding: 2rem;
+      }
+
+      .header {
+        color: #fff;
+        background-color: #000;
+      }
+
+      h1,
+      h3 {
+        margin-bottom: 1rem;
+      }
+
+      article {
+        background-color: #f2f2f2;
+        margin-bottom: 1rem;
+        border: 2px solid #b5b5b5;
+      }
+
+      #highlight {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Welcome to my website</h1>
+      <p>This is the header section of the page.</p>
+    </header>
+    <article>
+      <h3>Article 1</h3>
+      <p>
+        This is the first article on the page. It contains some
+        <span id="highlight">highlighted</span> text.
+      </p>
+    </article>
+
+    <article>
+      <h3>Article 2</h3>
+      <p id="highlight">
+        This is the second article on the page. It contains some highlighted and
+        important text.
+      </p>
+    </article>
+
+    <article>
+      <h3>Article 3</h3>
+      <p>
+        This is the third article on the page. It contains some regular text.
+      </p>
+    </article>
+  </body>
+</html>
